@@ -11,7 +11,7 @@ body {
     padding-top: 0;
 }
 
-h1, h2, h3, .caption {
+h1, h2, h3, .caption, .small-caption {
     padding: 10px 10px 2px 70px;
     font-weight: normal;
 }
@@ -40,6 +40,11 @@ ol li {
 
 .caption {
     font-size: 12px;
+    font-style: italic;
+}
+
+.small-caption {
+    font-size: 10px;
     font-style: italic;
 }
 
@@ -308,4 +313,17 @@ div.hats-grid p {
         --num-cols: 2;
         --row-height: 200px;
     }
+}
+
+/* Another try at a video grid (one row)*/
+.video-grid-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Place for each individual video so everything is spaced right */
+.video-spacing {
+    flex: 1;
+    max-width: 100%;
+    text-align: center;
 }
