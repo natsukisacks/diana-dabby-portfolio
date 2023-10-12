@@ -18,6 +18,7 @@ h1, h2, h3, .caption, .small-caption {
 
 h1 {
     font-size: 30px;
+    padding-top: 30px;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h3 {
     font-size: 20px;
 }
 
-p, ol li, .bold-header, li {  
+p, ol li, .bold-header { /*, li {  */
     margin-left: 90px;
     margin-right: 90px;
     text-align: justify;
@@ -61,125 +62,64 @@ ol li {
     color: blue;
 }
 
-/* Navigation bar and logo */
+/* New attempt at dropdown */
 .navbar {
-    display: flex;
-    background: #E7DFD8;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-
-    position: relative;
-}
-
-.navbar ul, .navbar li {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #E7DFD8;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
-    background: #E7DFD8;
-    list-style: none;
+    float: left;
 }
 
 .navbar ul li {
-    display: inline-block;
-    position: relative;
+    float: left;
+    list-style: none;
+    position: relative; /* Need to have this to active position: absolute later */
 }
 
+/* Styling main sections */
 .navbar ul li a {
     display: block;
+    font-family: 'Montserrat', 'sans-serif';    
+    color: #222;
+    font-size: 16px;
     padding: 10px 10px;
-    color: gray;
     text-decoration: none;
-    text-align: center;
-    font-size: 14px;
 }
 
-.navbar ul li ul.dropdown li {
-    display: block;
-}
-
-.navbar ul li ul.dropdown {
-    width: 100%;
-    background: brown;
+.navbar ul li ul {
+    display: none;
     position: absolute;
-    z-index: 999;
-    display: none
-}
-
-.navbar ul li a:hover {
-    /* background: #C0BFB3; */
-    font-weight: bold;
-}
-
-.navbar ul li:hover ul.dropdown {
-    display: block;
-} */
-
-.navbar li {
-    float: left;
-    position: relative;
-}
-
-.navbar a {
-    background: #E7DFD8;
-    color: black;
-    display: block;
-    font-weight: 400;
-    font-size: 13px;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.25s ease;
+    background-color: #E7DFD8;
     padding: 0px;
+    border-radius: 0px 0px 4px 4px;
 }
 
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
+.navbar ul li:hover ul {
+    display: block;
 }
 
-.navbar li:hover a {
-    color: #A6A6A6;
-}
-
-#dropdown {
-    opacity: 0;
-    position: absolute;
-    visibility: hidden;
-    z-index: 1;
-    top: 100%;
-}
-
-li:hover ul#dropdown {
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
-}
-
-#dropdown li {
-    float: none;
-    width: 100%;
-}
-
-#dropdown a:hover {
-    color: #A6A6A6;
-}
-
-#dropdown a {
-    color:black;
+/* Restyling anchor tag inside dropdown */
+.navbar ul li ul li a {
+    padding: 10px 10px;
     font-size: 13px;
 }
 
-@media (max-width: 480px) {
-    .navbar a {
-      padding: 8px;
-      font-size: 15px;
-    }
-} 
+.navbar ul li ul li {
+    width: 160px;
+    border-radius: 4px;
+}
+
+.navbar ul li ul li a:hover {
+    font-weight: bold;
+    background-color: #E7DFD8;
+}
 
 /* Home Page */
 .bio-container {
@@ -196,9 +136,9 @@ li:hover ul#dropdown {
     float: right;
     width: 180px;
     height: 250px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 90px 10px 20px;
     object-fit: cover;
-    clip-path: ellipse(35% 48% at 50% 50%);
+    /* clip-path: ellipse(35% 48% at 50% 50%); */
 }
 
 .intro-btn {
