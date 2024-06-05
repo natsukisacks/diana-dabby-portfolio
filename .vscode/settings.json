@@ -1,5 +1,3 @@
 {
-    "editor.wordWrap": "on",
-    "editor.rename.enablePreview": false,
-    "workbench.editor.enablePreview": false
+    "liveServer.settings.port": 5501
 }

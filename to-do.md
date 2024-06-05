@@ -5,30 +5,24 @@ DDLI: Does Diana like it?
 
 12/21: Currently transferring all content from version 1.0 to version 2.0 using **Bootstrap**. 
 
-1/2: Meeting with Diana
-1. CV button doesn't work
-2. Link 3-part story buttons to About page
-3. Link to other pages in the About page
-4. Add footer
-5. Double check all directory links (i.e. `orch-arrangements`)
-6. `scores`: thumbnail of first page of score with basic information about the piece (i.e. news tiling)
-7. `cantovario`: change video cover - maybe image
-8. `cantovario`: remove NSF grant
-9. `cantovario`: Link I-Corps Backstory
-10. `cantovario`: this document doesn't open in new tab
-11. `building olin`: 404 errors in all pages
-12. Change first year -> Olin's first year
-
-To transfer:
-- Eng subpages
-- Olin subpages
-
-Transferred:
+Content is all there:
 - Home
 - About
-- Music subpages
-- Music eng subpages
-- Eng subpages
+- Musical Works
+- Orch Arrangements
+- CantoVario
+- Engineers' Orchestra
+- Publication in Science
+- ECE
+- AHS
+- Integrated Eng
+- First year
+
+Need to do:
+- Scores: put all scores in
+- What to put under Grants?
+- Masters is empty
+- Music program
 
 ## To-do per page
 ### **Everything**
