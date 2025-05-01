@@ -3,6 +3,17 @@
 DDLI: Does Diana like it?
 `alt+Q` = rewrap code
 
+5/1/25: Updating all documents from the copy of Diana's repo in OneDrive.
+
+DONE: music, music & engineering, building olin 
+- Grants.html not working? Blank?
+    - Take everything from CV
+    - Add Harvard Radcliff
+    - NSF REUs
+- Scores page: running list of all scores written
+    - how the OCO arrangements were made 
+    - subtitles: scores of original works, sampling of orchestral arrangements
+
 12/21: Currently transferring all content from version 1.0 to version 2.0 using **Bootstrap**. 
 
 Content is all there:
