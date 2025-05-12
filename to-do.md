@@ -3,6 +3,9 @@
 DDLI: Does Diana like it?
 `alt+Q` = rewrap code
 
+5/12/25: Only moving ovre docs, not checking rev text
+- for some reason, i can only link ahs.html to the building olin ones if it's in the main branch and not the sub building olin branch 
+
 12/21: Currently transferring all content from version 1.0 to version 2.0 using **Bootstrap**. 
 
 Content is all there:
