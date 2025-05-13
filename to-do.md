@@ -4,6 +4,7 @@ DDLI: Does Diana like it?
 `alt+Q` = rewrap code
 
 5/1/25: Updating all documents from the copy of Diana's repo in OneDrive.
+Where to put Alien TINY poster?
 
 DONE: music, music & engineering, building olin 
 - Grants.html not working? Blank?
